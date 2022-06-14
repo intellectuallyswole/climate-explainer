@@ -1,9 +1,9 @@
 {
-	"manifest_version": 2,
-	"name": "Cloud To Butt",
+	"manifest_version": 1,
+	"name": "Climate Explainer",
 	"version": "1.0",
-	"description": "Replaces the text 'the cloud' with 'my butt'.",
-	"content_scripts": 
+	"description": "Expands climate-related jargon to make it easier to understand the science.",
+	"content_scripts":
 	[
 		{
 			"matches": ["*://*/*"],
