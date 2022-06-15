@@ -1,5 +1,5 @@
 {
-	"manifest_version": 1,
+	"manifest_version": 3,
 	"name": "Climate Explainer",
 	"version": "1.0",
 	"description": "Expands climate-related jargon to make it easier to understand the science.",
@@ -7,7 +7,7 @@
 	[
 		{
 			"matches": ["*://*/*"],
-			"js": ["content_script.js"],
+			"js": ["content_script.ts"],
 			"run_at": "document_end"
 		}
 	]
